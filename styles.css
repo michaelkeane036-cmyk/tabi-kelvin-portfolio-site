@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;700&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;700&family=Kalam:wght@400&family=Permanent+Marker&display=swap');
 :root{--paper:#f0eee5;--ink:#171715;--red:#df243b;--pink:#ea8091;--line:rgba(57,70,66,.13);--sans:'DM Sans',Arial,sans-serif;--mono:'DM Mono',monospace;--display:Anton,Impact,sans-serif}
 *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:80px}body{margin:0;color:var(--ink);background:var(--paper);font-family:var(--sans);line-height:1.55;overflow-x:hidden}img{display:block;max-width:100%}a{color:inherit}button{font:inherit}a:focus-visible,button:focus-visible{outline:3px solid var(--red);outline-offset:4px}.skip-link{position:fixed;top:8px;left:8px;z-index:100;background:white;padding:10px;transform:translateY(-160%)}.skip-link:focus{transform:none}.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap}
 .paper,.projects,.case-studies{background-color:var(--paper);background-image:linear-gradient(var(--line) 1px,transparent 1px),linear-gradient(90deg,var(--line) 1px,transparent 1px),radial-gradient(ellipse at 20% 12%,rgba(255,255,255,.65),transparent 30%),linear-gradient(106deg,transparent 38%,rgba(117,105,76,.035) 39%,transparent 40%,transparent 71%,rgba(255,255,255,.33) 72%,transparent 73%);background-size:24px 24px,24px 24px,100% 100%,100% 100%}
@@ -156,3 +156,6 @@ body{background:#eeefed;color:var(--ink)}
 
 /* Space the introduction actions after the shorter bio. */
 .intro-copy>p:not(.intro-kicker){margin-bottom:22px}
+
+/* Give the About text a personal, handwritten feel. */
+.intro-copy>p:not(.intro-kicker){font-family:'Kalam',cursive;font-size:19px;line-height:1.5}
